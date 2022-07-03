@@ -16,7 +16,7 @@
                  <form action="/login" method="POST">
                      Login: <input type="text" name="login"><br>
                      Password: <input type="password" name="password"  placeholder="over 10 symbols"><br>
-                     <h3 style="color:green"> Пароль должен содержать только латинские буквы минимум одну цифру, заглавную букву и не мене 10 символов.</h3>
+                     <h3 style="color:green"> Пароль должен содержать только латинские буквы минимум одну цифру, заглавную букву и не менее 10 символов.</h3>
                      Age: <input type="text" name="age"><br>
                      <h1 style="color:Red"> <%=age%> </h1>
                         <input type="submit"/>
